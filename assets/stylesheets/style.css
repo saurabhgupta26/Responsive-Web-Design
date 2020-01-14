@@ -172,15 +172,21 @@ img:last-child {
     flex-basis: 30%;
     font-size: 20px;
     color: #DFF5E1;
+    padding: 20px 30px;
+    font-weight: bold;
 }
 .form {
-    flex-basis: 50%;
-    /* text-align: center; */
-    flex-direction: column;
+  /* flex-basis: 50%; */
+  /* text-align: center; */
+  flex-direction: column;
 }
 
 .contact {
     margin: 10px 0;
+    padding: 12px 10px;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid lightgray;
 }
 
 /* maps section */
@@ -191,6 +197,7 @@ img:last-child {
 
 .maps {
     padding: 50px;
+    text-align: center;
 }
 
 h5 {
@@ -255,3 +262,33 @@ tr td:first-child {
 }
 
 
+@media all and (max-width:800px) {
+
+.flex img {
+  display: block;
+}
+.about .flex {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+.maps iframe {
+  width: 100%;
+  height: 200px;
+}
+article.flex {
+  display: block;
+  text-align: center;
+}
+table {
+  width: 100%;
+  font-size: 15px;
+  
+}
+.padding th,td {
+  padding: 10px 10px;
+}
+
+
+
+}
