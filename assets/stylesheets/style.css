@@ -1,0 +1,257 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.btn {
+  /* text-transform: uppercase; */
+  color:#2C3E50;
+  padding: 16px 26px;
+  border: 2px solid rgb(32, 30, 30);
+  margin-bottom: 70px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #fff;
+}
+.btn:hover {
+  color:#fff;
+  background-color: #555555;
+}
+
+.btn_hero {
+  background-color: #326D5E;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.btn_hero:hover {
+  background-color: #fff;
+  color: #326D5E;
+  border: 2px solid #326D5E;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    word-spacing: 1.12px;
+  }
+  
+.container {
+      max-width: 1100px;
+      margin: 0 auto;
+}
+.flex {
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navi {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+  
+  
+.navi a {
+    color: #fff;
+    font-size: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Roboto', cursive;
+}
+.color {
+    background-color: #2C3E50;
+    padding: 10px 0;
+}
+.logo {
+    width: 130px;
+    height: 45px;
+    margin: 20px 30px;
+}
+
+/* hero  */
+
+.color1 {
+    background: linear-gradient(#2B4A56, #4EA27F);
+}
+
+.hero {
+  text-align: center;
+}
+.hero_header{
+  color: #DFF5E1;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 80px 0 20px 0;
+}
+.hero_para {
+  color: #DFF5E1;
+  font-size: 26px;
+  padding-bottom: 120px;
+  font-weight: 700;
+}
+.image_section {
+    text-align: center;
+}
+.image_heading {
+    color: #2C3E50;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 60px 0 20px 0;
+}
+img {
+    /* flex-basis: 30%; */
+    width: 300px;
+    height: 200px;
+    margin: 25px;
+}
+img:last-child {
+    margin-bottom: 80px;
+}
+
+/* section2 */
+.about {
+    text-align: center;
+}
+.about_h {
+    color: #DFF5E1;
+}
+
+.about_para {
+    text-align: left;
+    flex-basis: 30%;
+    font-size: 20px;
+    color: #DFF5E1;
+}
+.form {
+    flex-basis: 50%;
+    /* text-align: center; */
+    flex-direction: column;
+}
+
+.contact {
+    margin: 10px 0;
+}
+
+/* maps section */
+
+.color2 {
+    background-color: rgb(147, 165, 184);
+}
+
+.maps {
+    padding: 50px;
+}
+
+h5 {
+    color: #DFF5E1;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.about_last p {
+    color: #DFF5E1;
+    font-size: 24px;
+    margin: 20px 0 80px 0;
+
+}
+.flex_style {
+    flex-basis: 30%;
+}
+
+footer {
+    color: #DFF5E1;
+    font-size: 16px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #19242E;
+}
+
+.padding th,td {
+  padding: 10px 60px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 60px auto;
+
+}
+.table th {
+  background-color: #1E2639;
+  color: #215875;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: #1E2639;
+}
+tr:nth-child(even) {
+  background-color: #323C50;
+}
+
+.fab, .fas {
+  color: #DFF5E1;
+  font-size: 24px;
+  padding-top: 5px;
+}
+tr td:first-child {
+  color: #EB6379;
+  font-weight: bold;
+}
+
+
