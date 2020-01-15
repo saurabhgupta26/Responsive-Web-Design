@@ -128,6 +128,7 @@ body{
 }
 .nav_sub_menu {
   position: relative;
+  top: -10px;
   /* vertical-align: top; */
 }
 .nav_menu_item a {
